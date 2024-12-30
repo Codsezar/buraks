@@ -6,20 +6,20 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "22724579"))
-API_HASH = getenv("API_HASH", "c80549534e8297a1d4df2abe4a0d2497")
+API_ID = int(getenv("API_ID", "28467973"))
+API_HASH = getenv("API_HASH", "a7b8ebc9c60db6f3b763d32aebb51873")
 BOT_PRIVACY = getenv("BOT_PRIVACY", None)
-BOT_TOKEN = getenv("BOT_TOKEN", "7721681605:")
+BOT_TOKEN = getenv("BOT_TOKEN", "7958792956:AAFfY7Fj39Tu1rK7QA705TqDZvCS9SK040Y")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sez/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sezar:alp@cluster0.gp7vh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002360781908))
 
-OWNER_ID = int(getenv("OWNER_ID", 7447500710))
+OWNER_ID = int(getenv("OWNER_ID", 7921877964))
 
-OWNER = int(getenv("OWNER", 7447500710))
+OWNER = int(getenv("OWNER", 7921877964))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -33,7 +33,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/atesbocegibioo")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Dumancchannel")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DumanMuzikGr")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
@@ -42,7 +42,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 5242880000))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
 
-STRING1 = getenv("STRING_SESSION", "BAFav-MAg5PKno7zreuMMssM68Y4LBkloOO-NNCuWFnHzCgYtA-VzbbRsoIiUtgiSiNG9rPw864-n7xHrYqGbjhrbpYEp6xqe9adqsYVtcd0r70VJpxF6yJWCa7TMdnT7GP_Ovu9Trh29PERPCa4RRgRhSHR5HlDD7MVI2rcPR4s4zpyf_WKwXzulBHWjpeKAUsdMHD7sMpXOFC86OyAqUeTVwOsJDzPVGyLvFHsqHM8db46dBnhaesv_fI2haoN3VuD6-ycKQsypMZucuAeq1zXeevIJXK0m4nLV9kNfv4ZxQOECVunoY3ccwj2F1u8L8grXMQlDXgEOcNb2tGGL8AwZa67ngAAAAHGDh3iAA")
+STRING1 = getenv("STRING_SESSION", "BAGyYwUAxaKnDuBbd-qPhol8kJ2wMYuunZbDMEMCNluRXDPs3v-rDSW5CYG9_qDzH_qpkpoyA7Lcq7zpV7693TLIm0dH0j6DPKa-DGvnF58ltzStWZYeK5-FhqvAGMUuaLcXI_67OkXNXIgm6MN4iQX1xqokax9x_UMI9lEwjVaTFmlogg7UPUeDb15LLPcSE3g7g8UhHyD48fLnjiW7owI09MQlcnJ6_7wBSsZVwVw7WBfjJPIavYaGQ4ZD6azrtB9Pg0YPGjPpC6qbZ8L8y__f0ufEC8QxTQD9CN9lEYmRBkWqEkvvmWGR8HIbr0_h4sQutsZfoMx3p6wVVjt7nuGwOO5urAAAAAHHcSgVAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -57,11 +57,11 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://t.me/Dumancchannel/9")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://t.me/Dumancchannel/9")
-PLAYLIST_IMG_URL = "https://t.me/Dumancchannel/9"
-STATS_IMG_URL = getenv("STATS_IMG_URL", "https://t.me/Dumancchannel/9")
-TELEGRAM_AUDIO_URL = "https://t.me/Dumancchannel/9"
+START_IMG_URL = getenv("START_IMG_URL", "https://t.me/Dumancchannel/14")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://t.me/Dumancchannel/5")
+PLAYLIST_IMG_URL = "https://t.me/Dumancchannel/5"
+STATS_IMG_URL = getenv("STATS_IMG_URL", "https://t.me/Dumancchannel/5")
+TELEGRAM_AUDIO_URL = "https://t.me/Dumancchannel/5"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
