@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 API_ID = int(getenv("API_ID", "28467973"))
-API_HASH = getenv("API_HASH", "a7b8ebc9c60db6f3b763d32aebb51873")
+API_HASH = getenv("API_HASH", ")
 BOT_PRIVACY = getenv("BOT_PRIVACY", None)
-BOT_TOKEN = getenv("BOT_TOKEN", "7958792956:AAFfY7Fj39Tu1rK7QA705TqDZvCS9SK040Y")
+BOT_TOKEN = getenv("BOT_TOKEN", "7958792956:")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sezar:alp@cluster0.gp7vh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sezar:/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
