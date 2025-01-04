@@ -9,9 +9,9 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "22724579"))
 API_HASH = getenv("API_HASH", "c80549534e8297a1d4df2abe4a0d2497")
 BOT_PRIVACY = getenv("BOT_PRIVACY", None)
-BOT_TOKEN = getenv("BOT_TOKEN", "7721681605:AAGhVqWWFF920c0WVvV8qrG4NNLJAVrRBus")
+BOT_TOKEN = getenv("BOT_TOKEN", "7721681605:")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sezar:alp@cluster0.gp7vh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sezar:/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
