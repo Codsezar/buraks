@@ -6,20 +6,20 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "28467973"))
-API_HASH = getenv("API_HASH", ")
+API_ID = int(getenv("API_ID", "22724579"))
+API_HASH = getenv("API_HASH", "c80549534e8297a1d4df2abe4a0d2497 ")
 BOT_PRIVACY = getenv("BOT_PRIVACY", None)
-BOT_TOKEN = getenv("BOT_TOKEN", "7958792956:")
+BOT_TOKEN = getenv("BOT_TOKEN", "7721681605:AAGhVqWWFF920c0WVvV8qrG4NNLJAVrRBus")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sezar:/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sezar:alp@cluster0.gp7vh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002360781908))
 
-OWNER_ID = int(getenv("OWNER_ID", 7921877964))
+OWNER_ID = int(getenv("OWNER_ID", 7447500710))
 
-OWNER = int(getenv("OWNER", 7921877964))
+OWNER = int(getenv("OWNER", 7447500710))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -33,7 +33,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Dumancchannel")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/atesbocegibioo")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DumanMuzikGr")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
@@ -57,11 +57,11 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://t.me/Dumancchannel/14")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://t.me/Dumancchannel/5")
-PLAYLIST_IMG_URL = "https://t.me/Dumancchannel/5"
-STATS_IMG_URL = getenv("STATS_IMG_URL", "https://t.me/Dumancchannel/5")
-TELEGRAM_AUDIO_URL = "https://t.me/Dumancchannel/5"
+START_IMG_URL = getenv("START_IMG_URL", "https://t.me/Dumancchannel/9")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://t.me/Dumancchannel/9")
+PLAYLIST_IMG_URL = "https://t.me/Dumancchannel/9"
+STATS_IMG_URL = getenv("STATS_IMG_URL", "https://t.me/Dumancchannel/9")
+TELEGRAM_AUDIO_URL = "https://t.me/Dumancchannel/9"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
