@@ -106,14 +106,14 @@ HELP_11 = """
 <b>v:</b> VİDEO OYNATMAK İÇİN KULLANILIR.
 <b>force:</b> ZORLA OYNATMAK İÇİN KULLANILIR.
 
-<code>/play</code> veya <code>/voynat</code> : İSTENEN MÜZİK PARÇASINI VİDEOCHAT'TE OYNATIR.
+<code>/oynat</code> veya <code>/voynat</code> : İSTENEN MÜZİK PARÇASINI VİDEOCHAT'TE OYNATIR.
 <code>/playforce</code> veya <code>/vplayforce</code> : DEVAM EDEN AKIŞI DURDURUR VE İSTENEN MÜZİK PARÇASINI ZORLA OYNATIR.
 """
 
 HELP_12 = """
 <b><u>ŞUFLÖ İÇİN KUYRUK KOMUTLARI:</b></u>
 
-<code>/shuffle</code> : KUYRUĞU KARIŞTIRIR.
+<code>/karıştır</code> : KUYRUĞU KARIŞTIRIR.
 <code>/queue</code> : KARIŞTIRILMIŞ KUYRUĞU GÖSTERİR.
 """
 
@@ -135,8 +135,8 @@ HELP_15 = """
 
 Şu anki yayının oynatma hızını kontrol edebilirsiniz. [Yalnızca yöneticiler]
 
-<code>/speed</code> veya <code>/playback</code> : Grup içinde ses oynatma hızını ayarlamak için.
-<code>/cspeed</code> veya <code>/cplayback</code> : Kanal içinde ses oynatma hızını ayarlamak için.
+<code>/ilerisar</code> veya <code>/gerisar</code> : Grup içinde ses oynatma hızını ayarlamak için.
+<code>/cilerisar</code> veya <code>/cgerisar</code> : Kanal içinde ses oynatma hızını ayarlamak için.
 """
 
 HELP_16 = """
