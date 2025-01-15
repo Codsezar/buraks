@@ -15,7 +15,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sezar:/?retryWrites=true&w=
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002360781908))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002361838198))
 
 OWNER_ID = int(getenv("OWNER_ID", 7447500710))
 
