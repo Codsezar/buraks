@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 HELP_1 = """<b><u>Admin KOMUTLARI :</b></u> 
 
 Komutları, kanal için kullanmak amacıyla komutların başına <b>c</b> ekleyin. 
