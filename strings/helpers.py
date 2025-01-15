@@ -1,177 +1,177 @@
-HELP_1 = """<b><u>Admin KOMUTLARI :</b></u> 
+HELP_1 = """<b><u>ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs :</b></u> 
 
-Komutları, kanal için kullanmak amacıyla komutların başına <b>c</b> ekleyin. 
+ᴊᴜsᴛ ᴀᴅᴅ <b>ᴄ</b> ɪɴ ᴛʜᴇ sᴛᴀʀᴛɪɴɢ ᴏғ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴜsᴇ ᴛʜᴇᴍ ғᴏʀ ᴄʜᴀɴɴᴇʟ. 
 
-<code>/duraklat</code> : Mevcut oynatılan yayını duraklatır.
-<code>/devam</code> : Duraklatılan yayını yeniden başlatır.
-<code>/atla</code> : Mevcut oynatılan yayını atlar ve sıradaki şarkıyı çalmaya başlar.
-<code>/dur</code> veya <code>/stop</code> : Kuyruğu temizler ve mevcut yayını sonlandırır.
-<code>/player</code> : Etkileşimli bir oynatıcı paneli alırsınız.
-<code>/queue</code> : Kuyruğa alınan şarkıların listesini gösterir.
+<code>/pause</code> : ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
+<code>/resume</code> : ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ.
+<code>/skip</code> : sᴋɪᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ɴᴇxᴛ ᴛʀᴀᴄᴋ ɪɴ ǫᴜᴇᴜᴇ.
+<code>/end</code> ᴏʀ <code>/stop</code> : ᴄʟᴇᴀʀs ᴛʜᴇ ǫᴜᴇᴜᴇ ᴀɴᴅ ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
+<code>/player</code> : ɢᴇᴛ ᴀ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ᴩʟᴀʏᴇʀ ᴩᴀɴᴇʟ.
+<code>/queue</code> : sʜᴏᴡs ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ʟɪsᴛ.
 """ 
 
 HELP_2 = """
-<b><u>YETKİLİ KULLANICILAR :</b></u> 
+<b><u>ᴀᴜᴛʜ ᴜsᴇʀs :</b></u> 
 
-Yetkili kullanıcılar, sohbetin içinde yönetici haklarına sahip olmadan botta yönetici haklarına sahip olabilirler. 
+ᴀᴜᴛʜ ᴜsᴇʀs ᴄᴀɴ ᴜsᴇ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜᴏᴜᴛ ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɪɴ ᴛʜᴇ ᴄʜᴀᴛ. 
 
-<code>/auth</code> [kullanıcı_adı/kullanıcı_id] : Bir kullanıcıyı botun yetkili kullanıcılar listesine ekler.
-<code>/unauth</code> [kullanıcı_adı/kullanıcı_id] : Bir yetkili kullanıcıyı yetkili kullanıcılar listesinden kaldırır.
-<code>/authusers</code> : Grubun yetkili kullanıcılar listesini gösterir.
+<code>/auth</code> [ᴜsᴇʀɴᴀᴍᴇ/ᴜsᴇʀ_ɪᴅ] : ᴀᴅᴅ ᴀ ᴜsᴇʀ ᴛᴏ ᴀᴜᴛʜ ʟɪsᴛ ᴏғ ᴛʜᴇ ʙᴏᴛ.
+<code>/unauth</code> [ᴜsᴇʀɴᴀᴍᴇ/ᴜsᴇʀ_ɪᴅ] : ʀᴇᴍᴏᴠᴇ ᴀ ᴀᴜᴛʜ ᴜsᴇʀs ғʀᴏᴍ ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ.
+<code>/authusers</code> : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴜᴛʜ ᴜsᴇʀs ᴏғ ᴛʜᴇ ɢʀᴏᴜᴩ.
 """ 
 
 HELP_3 = """
-<u><b>YAYIN ÖZELLİĞİ</b></u> [YALNIZCA SÜDÖRLER İÇİN] : 
+<u><b>ʙʀᴏᴀᴅᴄᴀsᴛ ғᴇᴀᴛᴜʀᴇ</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] : 
 
-<code>/broadcast</code> [mesaj veya bir mesaja yanıt ver] : Botun servis sohbetlerine bir mesaj yayınlar. 
+<code>/broadcast</code> [ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ] : ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ. 
 
-<u>Yayın Modları :</u>
-<b><code>-pin</code></b> : Yayınladığınız mesajı servis sohbetlerinde sabitler.
-<b><code>-pinloud</code></b> : Yayınladığınız mesajı servis sohbetlerinde sabitler ve üyelerine bildirim gönderir.
-<b><code>-user</code></b> : Mesajı, botu başlatan kullanıcılara gönderir.
-<b><code>-assistant</code></b> : Mesajı botun asistan hesabından yayınlar.
-<b><code>-nobot</code></b> : Botu, mesajı yayınlamamak için zorlar. 
+<u>ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ ᴍᴏᴅᴇs :</u>
+<b><code>-pin</code></b> : ᴩɪɴs ʏᴏᴜʀ ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇs ɪɴ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs.
+<b><code>-pinloud</code></b> : ᴩɪɴs ʏᴏᴜʀ ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ɪɴ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴀɴᴅ sᴇɴᴅ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ ᴛᴏ ᴛʜᴇ ᴍᴇᴍʙᴇʀs.
+<b><code>-user</code></b> : ʙʀᴏᴀᴅᴄᴀsᴛs ᴛʜᴇ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜᴇ ᴜsᴇʀs ᴡʜᴏ ʜᴀᴠᴇ sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ.
+<b><code>-assistant</code></b> : ʙʀᴏᴀᴅᴄᴀsᴛ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ғʀᴏᴍ ᴛʜᴇ ᴀssɪᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴏғ ᴛʜᴇ ʙᴏᴛ.
+<b><code>-nobot</code></b> : ғᴏʀᴄᴇs ᴛʜᴇ ʙᴏᴛ ᴛᴏ ɴᴏᴛ ʙʀᴏᴀᴅᴄᴀsᴛ ᴛʜᴇ ᴍᴇssᴀɢᴇ.. 
 
-<b>ÖRNEK:</b> <code>/broadcast -user -assistant -pin test broadcast</code>
+<b>ᴇxᴀᴍᴩʟᴇ:</b> <code>/broadcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ</code>
 """ 
 
-HELP_4 = """<u><b>SOHBET KARANLIK LİSTE ÖZELLİĞİ :</b></u> [YALNIZCA SÜDÖRLER İÇİN] 
+HELP_4 = """<u><b>ᴄʜᴀᴛ ʙʟᴀᴄᴋʟɪsᴛ ғᴇᴀᴛᴜʀᴇ :</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] 
 
-Botumuzu kullanmak isteyen sohbetleri kısıtlamak için. 
+ʀᴇsᴛʀɪᴄᴛ sʜɪᴛ ᴄʜᴀᴛs ᴛᴏ ᴜsᴇ ᴏᴜʀ ᴘʀᴇᴄɪᴏᴜs ʙᴏᴛ. 
 
-<code>/blacklistchat</code> [sohbet ID] : Bir sohbeti botu kullanmaktan engeller.
-<code>/whitelistchat</code> [sohbet ID] : Kara listeden bir sohbeti çıkarır.
-<code>/blacklistedchat</code> : Kara listeye alınan sohbetlerin listesini gösterir.
+<code>/blacklistchat</code> [ᴄʜᴀᴛ ɪᴅ] : ʙʟᴀᴄᴋʟɪsᴛ ᴀ ᴄʜᴀᴛ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
+<code>/whitelistchat</code> [ᴄʜᴀᴛ ɪᴅ] : ᴡʜɪᴛᴇʟɪsᴛ ᴛʜᴇ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛ.
+<code>/blacklistedchat</code> : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs.
 """ 
 
 HELP_5 = """
-<u><b>KULLANICIYI ENGELLEME:</b></u> [YALNIZCA SÜDÖRLER İÇİN] 
+<u><b>ʙʟᴏᴄᴋ ᴜsᴇʀs:</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] 
 
-Kara listeye alınan kullanıcıyı engellemeye başlar, böylece bot komutlarını kullanamaz. 
+sᴛᴀʀᴛs ɪɢɴᴏʀɪɴɢ ᴛʜᴇ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴜsᴇʀ, sᴏ ᴛʜᴀᴛ ʜᴇ ᴄᴀɴ'ᴛ ᴜsᴇ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs. 
 
-<code>/block</code> [kullanıcı adı veya bir kullanıcıya yanıt ver] : Kullanıcıyı botumuzdan engeller.
-<code>/unblock</code> [kullanıcı adı veya bir kullanıcıya yanıt ver] : Engellenmiş kullanıcıyı engelden çıkarır.
-<code>/blockedusers</code> : Engellenmiş kullanıcıların listesini gösterir.
+<code>/block</code> [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ʙʟᴏᴄᴋ ᴛʜᴇ ᴜsᴇʀ ғʀᴏᴍ ᴏᴜʀ ʙᴏᴛ.
+<code>/unblock</code> [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ᴜɴʙʟᴏᴄᴋs ᴛʜᴇ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀ.
+<code>/blockedusers</code> : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs.
 """ 
 
 HELP_6 = """
-<u><b>KANALDA OYNATMA KOMUTLARI:</b></u> 
+<u><b>ᴄʜᴀɴɴᴇʟ ᴩʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs:</b></u> 
 
-Kanalda ses/video yayını yapabilirsiniz. 
+ʏᴏᴜ ᴄᴀɴ sᴛʀᴇᴀᴍ ᴀᴜᴅɪᴏ/ᴠɪᴅᴇᴏ ɪɴ ᴄʜᴀɴɴᴇʟ. 
 
-<code>/coynat</code> : İstenilen ses parçasını kanalın video sohbetinde yayına başlatır.
-<code>/cvplay</code> : İstenilen video parçasını kanalın video sohbetinde yayına başlatır.
-<code>/cplayforce</code> veya <code>/cvplayforce</code> : Devam eden yayını durdurur ve istenilen parçayı yayına başlatır. 
+<code>/cplay</code> : sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴀᴜᴅɪᴏ ᴛʀᴀᴄᴋ ᴏɴ ᴄʜᴀɴɴᴇʟ's ᴠɪᴅᴇᴏᴄʜᴀᴛ.
+<code>/cvplay</code> : sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴠɪᴅᴇᴏ ᴛʀᴀᴄᴋ ᴏɴ ᴄʜᴀɴɴᴇʟ's ᴠɪᴅᴇᴏᴄʜᴀᴛ.
+<code>/cplayforce</code> or <code>/cvplayforce</code> : sᴛᴏᴩs ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ. 
 
-<code>/channelplay</code> [sohbet kullanıcı adı veya ID] veya [DEVRE DIŞI] : Kanalı bir gruba bağlar ve grup içinde gönderilen komutlarla parçaların yayına başlamasını sağlar.
+<code>/channelplay</code> [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ] : ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴩ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋs ʙʏ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴄᴏᴍᴍᴀɴᴅs sᴇɴᴛ ɪɴ ɢʀᴏᴜᴩ.
 """ 
 
 HELP_7 = """
-<u><b>GLOBAL YASAKLAMA ÖZELLİĞİ</b></u> [SADECE SÜDÖERLER İÇİN]: 
+<u><b>ɢʟᴏʙᴀʟ ʙᴀɴ ғᴇᴀᴛᴜʀᴇ</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] : 
 
-<code>/gban</code> [KULLANICI ADI veya BİR MESAJI CEVAPLA] : Kullanıcıyı tüm sunucu sohbetlerinden global olarak yasaklar ve botu kullanmalarını engeller.
-<code>/ungban</code> [KULLANICI ADI veya BİR MESAJI CEVAPLA] : Global olarak yasaklanmış kullanıcıyı global yasaklamadan kaldırır.
-<code>/gbannedusers</code> : Global olarak yasaklanmış kullanıcıların listesini gösterir.
+<code>/gban</code> [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ɢʟᴏʙᴀʟʟʏ ʙᴀɴs ᴛʜᴇ ᴄʜᴜᴛɪʏᴀ ғʀᴏᴍ ᴀʟʟ ᴛʜᴇ sᴇʀᴠᴇᴅ ᴄʜᴀᴛs ᴀɴᴅ ʙʟᴀᴄᴋʟɪsᴛ ʜɪᴍ ғʀᴏᴍ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ.
+<code>/ungban</code> [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : ɢʟᴏʙᴀʟʟʏ ᴜɴʙᴀɴs ᴛʜᴇ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ᴜsᴇʀ.
+<code>/gbannedusers</code> : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ᴜsᴇʀs.
 """ 
 
 HELP_8 = """
-<b><u>LOOP AKIŞI:</b></u> 
+<b><u>ʟᴏᴏᴘ sᴛʀᴇᴀᴍ :</b></u> 
 
-<b>DEVAM EDEN AKIŞI LOOP MODUNA ALIR</b> 
+<b>sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ɪɴ ʟᴏᴏᴘ</b> 
 
-<code>/dongü</code> [enable/disable] : DEVAM EDEN AKIŞ İÇİN LOOP MODUNU AÇAR/KAPATIR
-<code>/dongü</code> [1, 2, 3, ...] : VERİLEN DEĞER İÇİN LOOP MODUNU AÇAR
+<code>/loop</code> [enable/disable] : ᴇɴᴀʙʟᴇs/ᴅɪsᴀʙʟᴇs ʟᴏᴏᴘ ғᴏʀ ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ
+<code>/loop</code> [1, 2, 3, ...] : ᴇɴᴀʙʟᴇs ᴛʜᴇ ʟᴏᴏᴘ ғᴏʀ ᴛʜᴇ ɢɪᴠᴇɴ ᴠᴀʟᴜᴇ.
 """ 
 
 HELP_9 = """
-<u><b>BAKIM MODU</b></u> [YALNIZCA SÜDÖRLER İÇİN]: 
+<u><b>ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] : 
 
-<code>/logs</code> : BOT'UN LOGLARINI GETİRİR.
-<code>/logger</code> [enable/disable] : BOT, ÜZERİNDE YAPILAN AKTİVİTELERİ LOGLAMAYA BAŞLAR/KAPATIR.
-<code>/maintenance</code> [enable/disable] : BOT'UN BAKIM MODUNU AÇAR/KAPATIR.
+<code>/logs</code> : ɢᴇᴛ ʟᴏɢs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+<code>/logger</code> [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] : ʙᴏᴛ ᴡɪʟʟ sᴛᴀʀᴛ ʟᴏɢɢɪɴɢ ᴛʜᴇ ᴀᴄᴛɪᴠɪᴛɪᴇs ʜᴀᴩᴩᴇɴ ᴏɴ ʙᴏᴛ.
+<code>/maintenance</code> [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] : ᴇɴᴀʙʟᴇ ᴏʀ ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ᴏғ ʏᴏᴜʀ ʙᴏᴛ.
 """ 
 
 HELP_10 = """
-<b><u>PING & İSTATİKLER:</b></u> 
+<b><u>ᴘɪɴɢ & sᴛᴀᴛs :</b></u> 
 
-<code>/start</code> : MÜZİK BOTUNU BAŞLATIR.
-<code>/help</code> : KOMUTLARIN AÇIKLAMALARIYLA BİR YARDIM MENÜSÜ GÖSTERİR.
-<code>/ping</code> : BOT'UN PİNGİNİ VE SİSTEM İSTATİKLERİNİ GÖSTERİR.
-<code>/stats</code> : BOT'UN GENEL İSTATİKLERİNİ GÖSTERİR.
+<code>/start</code> : sᴛᴀʀᴛs ᴛʜᴇ ᴍᴜsɪᴄ ʙᴏᴛ.
+<code>/help</code> : ɢᴇᴛ ʜᴇʟᴩ ᴍᴇɴᴜ ᴡɪᴛʜ ᴇxᴩʟᴀɴᴀᴛɪᴏɴ ᴏғ ᴄᴏᴍᴍᴀɴᴅs.
+<code>/ping</code> : sʜᴏᴡs ᴛʜᴇ ᴩɪɴɢ ᴀɴᴅ sʏsᴛᴇᴍ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
+<code>/stats</code> : sʜᴏᴡs ᴛʜᴇ ᴏᴠᴇʀᴀʟʟ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ.
 """ 
 
 HELP_11 = """
-<u><b>PLAY KOMUTLARI:</b></u> 
+<u><b>ᴩʟᴀʏ ᴄᴏᴍᴍᴀɴᴅs :</b></u> 
 
-<b>v:</b> VİDEO OYNATMAK İÇİN KULLANILIR.
-<b>force:</b> ZORLA OYNATMAK İÇİN KULLANILIR. 
+<b>v :</b> sᴛᴀɴᴅs ғᴏʀ ᴠɪᴅᴇᴏ ᴩʟᴀʏ.
+<b>force :</b> sᴛᴀɴᴅs ғᴏʀ ғᴏʀᴄᴇ ᴩʟᴀʏ. 
 
-<code>/oynat</code> veya <code>/voynat</code> : İSTENEN MÜZİK PARÇASINI VİDEOCHAT'TE OYNATIR.
-<code>/playforce</code> veya <code>/vplayforce</code> : DEVAM EDEN AKIŞI DURDURUR VE İSTENEN MÜZİK PARÇASINI ZORLA OYNATIR.
+<code>/play</code> ᴏʀ <code>/vplay</code> : sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.
+<code>/playforce</code> ᴏʀ <code>/vplayforce</code> : sᴛᴏᴩs ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ.
 """ 
 
 HELP_12 = """
-<b><u>ŞUFLÖ İÇİN KUYRUK KOMUTLARI:</b></u> 
+<b><u>sʜᴜғғʟᴇ ᴏ̨ᴜᴇᴜᴇ :</b></u> 
 
-<code>/karıştır</code> : KUYRUĞU KARIŞTIRIR.
-<code>/queue</code> : KARIŞTIRILMIŞ KUYRUĞU GÖSTERİR.
+<code>/shuffle</code> : sʜᴜғғʟᴇ's ᴛʜᴇ ᴏ̨ᴜᴇᴜᴇ.
+<code>/queue</code> : sʜᴏᴡs ᴛʜᴇ sʜᴜғғʟᴇᴅ ᴏ̨ᴜᴇᴜᴇ.
 """ 
 
 HELP_13 = """
-<b><u>AKIŞTA ARAMA KOMUTLARI:</b></u> 
+<b><u>sᴇᴇᴋ sᴛʀᴇᴀᴍ :</b></u> 
 
-<code>/seek</code> [SÜRE saniye cinsinden] : AKIŞI VERİLEN SÜREYE GÖRE ARAR.
-<code>/seekback</code> [SÜRE saniye cinsinden] : AKIŞI GERİYE, VERİLEN SÜREYE GÖRE ARAR.
+<code>/seek</code> [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ sᴇᴄᴏɴᴅs] : sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
+<code>/seekback</code> [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ sᴇᴄᴏɴᴅs] : ʙᴀᴄᴋᴡᴀʀᴅ sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
 """ 
 
 HELP_14 = """
-<b><u>ŞARKI İNDİRME</b></u> 
+<b><u>sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ</b></u> 
 
-<code>/song</code> [ŞARKI ADI/YouTube URL] : YouTube'dan herhangi bir parçayı mp3 veya mp4 formatında indirir.
+<code>/song</code> [sᴏɴɢ ɴᴀᴍᴇ/ʏᴛ ᴜʀʟ] : ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ᴛʀᴀᴄᴋ ғʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ ɪɴ ᴍᴘ3 ᴏʀ ᴍᴘ4 ғᴏʀᴍᴀᴛs.
 """ 
 
 HELP_15 = """
-<b><u>HIZ KOMUTLARI :</b></u> 
+<b><u>sᴘᴇᴇᴅ ᴄᴏᴍᴍᴀɴᴅs :</b></u> 
 
-Şu anki yayının oynatma hızını kontrol edebilirsiniz. [Yalnızca yöneticiler] 
+ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛʀᴏʟ ᴛʜᴇ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ᴏғ ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ. [ᴀᴅᴍɪɴs ᴏɴʟʏ] 
 
-<code>/ilerisar</code> veya <code>/gerisar</code> : Grup içinde ses oynatma hızını ayarlamak için.
-<code>/cilerisar</code> veya <code>/cgerisar</code> : Kanal içinde ses oynatma hızını ayarlamak için.
+<code>/speed</code> or <code>/playback</code> : ғᴏʀ ᴀᴅᴊᴜsᴛɪɴɢ ᴛʜᴇ ᴀᴜᴅɪᴏ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ɪɴ ɢʀᴏᴜᴘ.
+<code>/cspeed</code> or <code>/cplayback</code> : ғᴏʀ ᴀᴅᴊᴜsᴛɪɴɢ ᴛʜᴇ ᴀᴜᴅɪᴏ ᴘʟᴀʏʙᴀᴄᴋ sᴘᴇᴇᴅ ɪɴ ᴄʜᴀɴɴᴇʟ.
 """ 
 
 HELP_16 = """
-<b><u>TOPLU İŞLEM KOMUTLARI :</b></u> 
+<b><u>ᴍᴀꜱꜱ ᴀᴄᴛɪᴏɴ ᴄᴏᴍᴍᴀɴᴅs :</b></u> 
 
-NOT: Toplu işlemleri yalnızca grup sahibi kullanabilir.
-<code>/gstat</code> : Grup istatistiklerini getirir.
-<code>/leaveall</code> : (Sahip tarafından çalıştırılır)
-<code>/banall</code> : Tüm grup üyelerini yasaklar. (Sadece grup sahibi çalıştırabilir)
-<code>/unbanall</code> : Tüm yasaklı grup üyelerini serbest bırakır. (Sadece grup sahibi çalıştırabilir)
-<code>/muteall</code> : Tüm grup üyelerini sessize alır. (Sadece grup sahibi çalıştırabilir)
-<code>/unmuteall</code> : Tüm sessize alınmış grup üyelerinin sessizliğini açar. (Sadece grup sahibi çalıştırabilir)
-<code>/kickall</code> : Tüm grup üyelerini atar. (Sadece grup sahibi çalıştırabilir)
-<code>/unpinall</code> : Grubun tüm sabitlenmiş mesajlarını sabitlikten çıkarır. (Sadece grup sahibi çalıştırabilir)
-<code>/deleteall</code> : Grubun tüm mesajlarını siler, bazı izinler gerektirir:
-Yönetici hakları olan bot için:
-1. <code>Mesajları silme bot</code>
-2. <code>Üye yükseltme bot</code>
-3. <code>Üye davet etme bot</code> 
+ɴᴏᴛᴇ : ᴍᴀꜱꜱ ᴀᴄᴛɪᴏɴ ᴏɴʟʏ ᴄᴀɴ ᴜꜱᴇ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ.
+<code>/gstat</code> : ɢᴇᴛ ɢʀᴏᴜᴘ ꜱᴛᴀᴛꜱ.
+<code>/leaveall</code> : (ᴏᴡɴᴇʀ ᴇxᴇᴄᴜᴛᴇ ᴄᴍᴅ)
+<code>/banall</code> : ʙᴀɴ ᴀʟʟ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀꜱ. (ᴏɴʟʏ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ ᴇxᴇᴄᴜᴛᴇ ᴄᴍᴅ)
+<code>/unbanall</code> : ᴜɴʙᴀɴ ᴀʟʟ ʙᴀɴɴᴇᴅ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀꜱ. (ᴏɴʟʏ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ ᴇxᴇᴄᴜᴛᴇ ᴄᴍᴅ)
+<code>/muteall</code> : ᴍᴜᴛᴇ ᴀʟʟ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀꜱ. (ᴏɴʟʏ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ ᴇxᴇᴄᴜᴛᴇ ᴄᴍᴅ)
+<code>/unmuteall</code> : ᴜɴᴍᴜᴛᴇ ᴀʟʟ ᴍᴜᴛᴇᴅ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀꜱ. (ᴏɴʟʏ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ ᴇxᴇᴄᴜᴛᴇ ᴄᴍᴅ)
+<code>/kickall</code> : ᴋɪᴄᴋ ᴀʟʟ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀꜱ. (ᴏɴʟʏ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ ᴇxᴇᴄᴜᴛᴇ ᴄᴍᴅ)
+<code>/unpinall</code> : ᴜɴᴘɪɴᴅ ᴀʟʟ ᴘɪɴɴᴇᴅ ᴍᴇꜱꜱᴇɢᴇꜱ ɪɴ ɢʀᴏᴜᴘ. (ᴏɴʟʏ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ ᴇxᴇᴄᴜᴛᴇ ᴄᴍᴅ)
+<code>/deleteall</code> :ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴍᴇꜱꜱᴇɢᴇ ꜰʀᴏᴍ ɢʀᴏᴜᴘ ɴᴇᴇᴅ ꜱᴏᴍᴇ ʀᴇQ:
+ᴇɴᴏᴜɢʜ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ ᴀᴅᴍɪɴ ʀɪɢʜᴛ ᴏꜰꜰ ʙᴏᴛ:
+1. <code>ᴅᴇʟᴇᴛᴇ ᴍᴇꜱꜱᴀɢᴇꜱ ʙᴏᴛ</code>
+2. <code>ᴘʀᴏᴍᴏᴛᴇ ᴍᴇᴍʙᴇʀꜱ ʙᴏᴛ</code>
+3. <code>ɪɴᴠɪᴛᴇ ᴜꜱᴇʀꜱ ʙᴏᴛ</code> 
 
-NOT: (Toplu işlem yalnızca grup sahibi tarafından kullanılabilir)
+ɴᴏᴛᴇ : (ᴍᴀꜱꜱ ᴀᴄᴛɪᴏɴ ᴏɴʟʏ ᴄᴀɴ ᴜꜱᴇ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ)
 """
 HELP_17 = """
-<b><u>YAYIN LİSANS İÇİN ÖZELLİKLER:</b></u> 
+<b><u>ꜰᴇᴀᴛᴜʀᴇ ꜰᴏʀ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ :</b></u> 
 
-NOT: Artık aylık ve haftalık yayın abone üyeliklerini bizden satın alabilirsiniz. Haftalık üyelik için 4 yayın, aylık üyelik için ise 14 yayın veriyoruz ve yayın göndermeye iki gün sonra başlayabilirsiniz. 
+ɴᴏᴛᴇ : ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴍᴏɴᴛʜʟʏ ᴀɴᴅ ᴡᴇᴇᴋʟʏ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ꜰʀᴏᴍ ᴜs. ᴡᴇ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ 4 ʙʀᴏᴀᴅᴄᴀsᴛ ꜰᴏʀ ᴡᴇᴇᴋʟʏ ᴀɴᴅ 14 ʙʀᴏᴀᴅᴄᴀsᴛ ꜰᴏʀ ᴍᴏɴᴛʜʟʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ sᴇɴᴅɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀꜰᴛᴇʀ ᴛᴡᴏ ᴅᴀʏs. 
 
-<code>/gcast</code> : Abone kullanıcıları.
+<code>/gcast</code> : sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴜꜱᴇʀꜱ.
 <code>/gcast -user hii</code> 
 
-<code>/addpro</code> : Kullanıcıya/ID'ye/kullanıcı adına gün eklemek için cevap verin. (Sahip)
+<code>/addpro</code> : ʀᴇᴘʟᴀʏ ᴛᴏ ᴜꜱᴇʀ/ᴜꜱᴇʀɪᴅ/ᴜꜱᴇʀɴᴀᴍᴇ ᴅᴀʏꜱ.(ᴏᴡɴᴇʀ)
 <code>/addpro @AMBOTYT 7</code> 
 
-<code>/rmpro</code> : Kullanıcıdan/ID'den/kullanıcı adından gün kaldırmak için cevap verin. (Sahip)
-<code>/rmpro @AMBOTYT</code> 
+<code>/rmpro</code> :ʀᴇᴘʟᴀʏ ᴛᴏ ᴜꜱᴇʀ/ᴜꜱᴇʀɪᴅ/ᴜꜱᴇʀɴᴀᴍᴇ.(ᴏᴡɴᴇʀ)
+<code>/addpro @AMBOTYT</code> 
 
-<code>/prolists</code> : Tüm abone kullanıcıların listesini alır.
+<code>/prolists</code> : ɢᴇᴛ ᴀʟʟ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴜꜱᴇʀꜱ ʟɪꜱᴛꜱ.
 """
