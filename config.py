@@ -57,11 +57,11 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://t.me/Dumancchannel/14")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://t.me/Dumancchannel/14")
-PLAYLIST_IMG_URL = "https://t.me/Dumancchannel/14"
-STATS_IMG_URL = getenv("STATS_IMG_URL", "https://t.me/Dumancchannel/14")
-TELEGRAM_AUDIO_URL = "https://t.me/Dumancchannel/14"
+START_IMG_URL = getenv("START_IMG_URL", "https://t.me/Lattedestek/3")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://t.me/Lattedestek/3")
+PLAYLIST_IMG_URL = "https://t.me/Lattedestek/3"
+STATS_IMG_URL = getenv("STATS_IMG_URL", "https://t.me/Lattedestek/3")
+TELEGRAM_AUDIO_URL = "https://t.me/Lattedestek/3"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
